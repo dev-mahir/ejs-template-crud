@@ -1,0 +1,36 @@
+    
+<section class="mt-5 mx-auto">
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="div-01 d-flex justify-content-between">
+                            <h3 class="fw-bold">Add New Student</h3>
+                            <a class="btn btn-primary" href="/student">Back</a>
+                        </div>
+                        <hr>
+                        <form action="/student" method="POST" enctype="multipart/form-data">
+                            <div class="my-3">
+                                <input name="name" class="form-control" type="text" placeholder="Name">
+                            </div>
+                            <div class="my-3">
+                                <input name="email" class="form-control" type="email" placeholder="Email Address">
+                            </div>
+                            <div class="my-3">
+                                <input name="photo" class="form-control" type="file" placeholder="Student Photo">
+                            </div>
+                            <div class="my-3">
+                                <button class="btn btn-primary" type="submit">Add Student</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+</section>
+
+
